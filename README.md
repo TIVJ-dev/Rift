@@ -3,6 +3,10 @@ Rift is a lightweight modding API, library, and mod loader for Minecraft 1.13. T
 
 This fork contains the Minecraft 1.13.1 port (in the `newerer` branch) and the Minecraft 1.13.2 port (in the `newerest` branch). For Minecraft 1.13 see [**here**](https://github.com/DimensionalDevelopment/Rift). Pull requests should go to either of those branches depending on Minecraft version, `jitpack` is for temporary publishing until everything is pulled into the main Rift repo.
 
+## Why TIVJ-dev's fork?
+I have added some Keybinding related tools including keybind category adding, moving and keybind's keycode lookup.
+See interfaces at `io.github.tivj.interfaces.KeyBindingCategories` and `io.github.tivj.interfaces.KeyBindingHelper`!
+
 
 ## Playing on Minecraft 1.13.2
 If you have any problems or find any incompatibilities using this please do report them [here](https://github.com/Chocohead/Rift/issues). Previous problems with Optifine and water/connected textures appear to have been fixed so there is nothing known to cause trouble at the moment.
